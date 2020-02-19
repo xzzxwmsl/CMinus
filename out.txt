@@ -1,0 +1,110 @@
+3	Reversed Words  int
+3	ID,Name =  max
+3	 (
+3	Reversed Words  int
+3	ID,Name =  x
+3	 ,
+3	Reversed Words  int
+3	ID,Name =  y
+3	 ,
+3	Reversed Words  int
+3	ID,Name =  z
+3	 )
+4	 {
+5	Reversed Words  int
+5	ID,Name =  result
+5	 ;
+6	Reversed Words  if
+6	 (
+6	ID,Name =  x
+6	 >
+6	ID,Name =  y
+6	 )
+7	 {
+8	ID,Name =  result
+8	 =
+8	ID,Name =  x
+8	 ;
+9	Reversed Words  if
+9	 (
+9	ID,Name =  z
+9	 >
+9	ID,Name =  result
+9	 )
+10	 {
+11	ID,Name =  result
+11	 =
+11	ID,Name =  z
+11	 ;
+12	 }
+13	 }
+14	Reversed Words  else
+15	 {
+16	ID,Name =  result
+16	 =
+16	ID,Name =  y
+16	 ;
+17	Reversed Words  if
+17	 (
+17	ID,Name =  z
+17	 >
+17	ID,Name =  result
+17	 )
+18	 {
+19	ID,Name =  result
+19	 =
+19	ID,Name =  z
+19	 ;
+20	 }
+21	 }
+22	Reversed Words  return
+22	ID,Name =  result
+22	 ;
+23	 }
+25	Reversed Words  void
+25	ID,Name =  main
+25	 (
+25	Reversed Words  void
+25	 )
+26	 {
+27	Reversed Words  int
+27	ID,Name =  a
+27	 ;
+28	Reversed Words  int
+28	ID,Name =  b
+28	 ;
+29	Reversed Words  int
+29	ID,Name =  c
+29	 ;
+31	ID,Name =  a
+31	 =
+31	ID,Name =  input
+31	 (
+31	 )
+31	 ;
+32	ID,Name =  b
+32	 =
+32	ID,Name =  input
+32	 (
+32	 )
+32	 ;
+33	ID,Name =  c
+33	 =
+33	ID,Name =  input
+33	 (
+33	 )
+33	 ;
+34	ID,Name =  output
+34	 (
+34	ID,Name =  max
+34	 (
+34	ID,Name =  a
+34	 ,
+34	ID,Name =  b
+34	 ,
+34	ID,Name =  c
+34	 )
+34	 )
+34	 ;
+37	 }
+38	ENDFILE 

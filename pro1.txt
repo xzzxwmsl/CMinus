@@ -1,0 +1,27 @@
+/* text by xzz*******/
+
+int fun(int x,int y ){
+int a;
+int b;
+int c;
+a=1;
+b=2;
+c=a+b;
+a>b;
+a>=b;
+a==c;
+void d;
+
+if(a>b){
+a=1;
+}else{
+a=3;
+}
+while(a>c){
+c=c+3;
+}
+  /*
+SCU XZZ PROGRAM     *******
+*/
+retrun 0;
+}
